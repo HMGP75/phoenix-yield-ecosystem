@@ -1,0 +1,97 @@
+/* GLOBAL PHOENIX YIELD THEME */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background: #0d0d0f;
+  color: #d6d6d6;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+  margin: 0 0 20px;
+  font-weight: 700;
+}
+
+p {
+  line-height: 1.6;
+  color: #c7c7c7;
+}
+
+a {
+  color: #8b5cf6;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+  background: radial-gradient(circle at 50% 20%, rgba(139,92,246,0.25), transparent),
+              linear-gradient(to bottom, #141415, #0d0d0f);
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+
+.hero h1 {
+  font-size: 3.3rem;
+  margin-bottom: 12px;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  color: #bdbdbd;
+}
+
+.fund-list {
+  width: 95%;
+  max-width: 1200px;
+  margin: 60px auto;
+}
+
+.fund-list h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+}
+
+.fund-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 28px;
+}
+
+.fund-card {
+  background: rgba(255,255,255,0.03);
+  padding: 30px;
+  border-radius: 14px;
+  text-align: center;
+  border: 1px solid rgba(255,255,255,0.06);
+  transition: all 0.25s ease;
+}
+
+.fund-card:hover {
+  transform: translateY(-6px);
+  background: rgba(255,255,255,0.06);
+  box-shadow: 0 0 40px rgba(0,0,0,0.5);
+}
+
+.fund-card h3 {
+  font-size: 2rem;
+  color: #a78bfa;
+  margin-bottom: 6px;
+}
+
+.fund-card p {
+  font-size: 1rem;
+  color: #d4d4d4;
+}
+
+/* COMMON STRUCTURE */
+
+section {
+  margin: 80px auto;
+  width: 95%;
+  max-width: 1200px;
+}

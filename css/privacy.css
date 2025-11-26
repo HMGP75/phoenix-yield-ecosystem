@@ -1,0 +1,59 @@
+/* PRIVACY BLOCK */
+
+.privacy-block {
+  padding: 80px 0;
+  background: radial-gradient(circle at 30% 20%, rgba(147,51,234,0.15), transparent 60%),
+              radial-gradient(circle at 80% 70%, rgba(59,130,246,0.12), transparent 65%),
+              #0b0b0b;
+  color: #e5e7eb;
+}
+
+.privacy-container {
+  width: 95%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.privacy-title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.privacy-subtitle {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 50px;
+  color: #a78bfa;
+  font-style: italic;
+}
+
+.privacy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+}
+
+.privacy-card {
+  background: rgba(255,255,255,0.04);
+  padding: 30px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(8px);
+  transition: 0.25s;
+}
+
+.privacy-card:hover {
+  transform: translateY(-6px);
+}
+
+.privacy-card h3 {
+  color: #c084fc;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+}
+
+.privacy-card p {
+  color: #d1d5db;
+}
