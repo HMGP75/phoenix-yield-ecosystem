@@ -1,31 +1,51 @@
-/* GLOBAL PHOENIX YIELD THEME */
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
 
 body {
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
-  background: #0d0d0f;
-  color: #d6d6d6;
+  background: #0b0b0c;
+  color: #e6e6e6;
 }
 
 h1, h2, h3 {
-  color: #ffffff;
-  margin: 0 0 20px;
   font-weight: 700;
+  margin: 0 0 20px;
+  line-height: 1.2;
 }
 
-p {
-  line-height: 1.6;
-  color: #c7c7c7;
+p { line-height: 1.7; color: #cfcfcf; }
+
+a { color: #a78bfa; text-decoration: none; }
+
+section {
+  width: 95%;
+  max-width: 1250px;
+  margin: 80px auto;
 }
 
-a {
-  color: #8b5cf6;
-  text-decoration: none;
+/* HERO CINEMATOGRÁFICO */
+.fund-hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: radial-gradient(circle at 50% 20%, rgba(139,92,246,0.35), rgba(20,20,30,0.9)),
+              linear-gradient(to bottom, #111, #0b0b0c);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
 }
 
+.fund-hero h1 {
+  font-size: 3.2rem;
+  color: #fff;
+}
+
+.fund-hero p {
+  max-width: 720px;
+  margin: 20px auto 0;
+  font-size: 1.25rem;
+  color: #c8b6ff;
+}
+
+/* INDEX PAGE STYLES */
 .hero {
   text-align: center;
   padding: 90px 20px;
@@ -86,12 +106,4 @@ a {
 .fund-card p {
   font-size: 1rem;
   color: #d4d4d4;
-}
-
-/* COMMON STRUCTURE */
-
-section {
-  margin: 80px auto;
-  width: 95%;
-  max-width: 1200px;
 }
